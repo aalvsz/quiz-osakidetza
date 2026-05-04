@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-osakidetza-pwa-2026-05-04-root-link1";
+const CACHE_NAME = "quiz-osakidetza-pwa-2026-05-04-mistakes1";
 const START_URL = "./";
 const APP_SHELL = [
   START_URL,

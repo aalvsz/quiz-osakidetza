@@ -1,7 +1,7 @@
 const CACHE_NAME = "quiz-osakidetza-pwa-2026-05-04-v1";
+const START_URL = "./?v=2026-05-04-pwa1";
 const APP_SHELL = [
-  "./",
-  "./index.html",
+  START_URL,
   "./manifest.webmanifest",
   "./icon-180.png",
   "./icon-192.png",
@@ -35,10 +35,10 @@ self.addEventListener("fetch", event => {
       fetch(event.request)
         .then(response => {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put("./index.html", copy));
+          caches.open(CACHE_NAME).then(cache => cache.put(START_URL, copy));
           return response;
         })
-        .catch(() => caches.match("./index.html").then(response => response || caches.match("./")))
+        .catch(() => caches.match(START_URL))
     );
     return;
   }

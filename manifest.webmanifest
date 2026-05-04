@@ -2,7 +2,7 @@
   "name": "Quiz Osakidetza",
   "short_name": "Quiz OPE",
   "description": "Preparacion EPE/OPE Osakidetza con 700 preguntas.",
-  "start_url": "./?v=2026-05-04-pwa1",
+  "start_url": "./?v=2026-05-04-anon-history2",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

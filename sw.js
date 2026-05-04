@@ -1,5 +1,5 @@
-const CACHE_NAME = "quiz-osakidetza-pwa-2026-05-04-v1";
-const START_URL = "./?v=2026-05-04-pwa1";
+const CACHE_NAME = "quiz-osakidetza-pwa-2026-05-04-anon-history2";
+const START_URL = "./?v=2026-05-04-anon-history2";
 const APP_SHELL = [
   START_URL,
   "./manifest.webmanifest",
